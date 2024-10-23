@@ -16,3 +16,10 @@ To install the <ylapi> chart:
 To uninstall the chart:
 
     helm delete allenyummy-ylapi
+
+## Reference
+
+- [k8s summit 2024](https://k8s.ithome.com.tw/2024/workshop-page/3261)
+- [練習一-創建您的第一個-helm-chart](https://mansunkuo.github.io/zh-tw/tech/helm/#練習一-創建您的第一個-helm-chart)
+- [Slides](https://docs.google.com/presentation/d/1zE2GDQ-PjGAmFcIIOyki-v6EFtUSpEAfp1rF3bJWqEs/edit#slide=id.g2fc7c646d5d_0_17)
+- [共筆](https://hackmd.io/@k8ssummit/2024/%2Fl18VcrHaSBm3VbLaZxHg5g)
