@@ -7,12 +7,13 @@ metadata:
 data:
   main.py: |
     from fastapi import FastAPI
+    import os
 
     app = FastAPI()
 
     @app.get("/")
     def read_root():
-        return {"Hello": "World"}
+        return {"Hello": f"password: {os.environ.get('PASSWORD')}"}
 
     @app.get("/hello/{user}")
     def hello(user: str):
@@ -21,3 +22,7 @@ data:
     @app.get("/world/{user}")
     def hello(user: str):
         return {"World": user}    
+
+    @app.get("/www/{user}")
+    def hello(user: str):
+        return {"www": user}    
